@@ -42,7 +42,7 @@ Built around a core C++ web server, this project delivers a responsive web templ
 
     ./bin/server
 
-**The server starts on port 8080 by default. Visit http://localhost:8080 in your browser to access it.**
+**The server starts on port 8080 by default. Visit http://[your private IP]:8080 in your browser to access it.**
 
 ## 📱💻 Accessing from Other Devices
 
