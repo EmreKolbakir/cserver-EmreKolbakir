@@ -72,7 +72,7 @@ int main() {
     // Define the server address
     server_addr.sin_family = AF_INET;                 // Address family is IP version 4
     server_addr.sin_port = htons(8080);               // Set port number (8080) after converting to network byte order
-    inet_pton(AF_INET, "10.200.102.34", &server_addr.sin_addr); // Convert IP address from string to binary
+    inet_pton(AF_INET, "[Your Private IP here]", &server_addr.sin_addr); // Convert IP address from string to binary
 
     // Bind the socket to the specified address and port
     bind(server_socket, (struct sockaddr *)&server_addr, sizeof(server_addr));
